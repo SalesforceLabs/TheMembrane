@@ -1,0 +1,16 @@
+<template>
+
+	<article class="slds-card">
+		<div class="slds-card__body slds-card__body_inner">
+			<div data-id="jsoneditor" style="margin-bottom: 10px;height:1000px"></div>
+		</div>
+		<footer class="slds-card__footer">
+			<template if:false={viewonlymode}>
+				<lightning-button style="margin-left:0px" variant="brand" class="slds-m-left_x-small" type="button" onclick={saveJson} label="Save">
+				</lightning-button>
+			</template>
+		</footer>
+	</article>
+     
+    
+</template>
